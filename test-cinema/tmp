@@ -1,0 +1,55 @@
+issuing 4 type res
+_NUM_CLIENT_THREADS: 10
+_NUM_S_THREADS: 10
+_BUFFER_SIZE: 1000
+_MAX_SEATS: 1
+_CONFLICT: 1
+_NUM_ROWS: 10
+_NUM_COLUMNS: 10
+_MAX_REQS: 100
+_MAX_ATT: 200
+snapshot: 0
+----
+reserve 4
+_NUM_CLIENT_THREADS:10
+_NUM_S_THREADS:10
+_NUM_ROWS:10
+_NUM_COLUMNS:10
+_BUFFER_SIZE:1000
+_MAX_SEATS:1
+_NUM_REQS:100
+_MAX_ATT:200
+----
+-GAME OVER-
+--------------------------------------------------
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+--------------------------------------------------
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+#res:0
+#preres:0
+#expired:0
+-Reservations:
+Empty list.
+-Prereservations:
+Empty list.
+#Ops: 1000
+#Suc: 966
+#Fail:34

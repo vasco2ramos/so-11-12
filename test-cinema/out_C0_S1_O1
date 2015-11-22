@@ -1,0 +1,113 @@
+issuing 0 type res
+_NUM_CLIENT_THREADS: 1
+_NUM_S_THREADS: 1
+_BUFFER_SIZE: 1000
+_MAX_SEATS: 1
+_CONFLICT: 0
+_NUM_ROWS: 10
+_NUM_COLUMNS: 10
+_MAX_REQS: 1
+_MAX_ATT: 200
+snapshot: 1
+----
+reserve 0
+_NUM_CLIENT_THREADS:1
+_NUM_S_THREADS:1
+_NUM_ROWS:10
+_NUM_COLUMNS:10
+_BUFFER_SIZE:1000
+_MAX_SEATS:1
+_NUM_REQS:1
+_MAX_ATT:200
+----
+--------------------------------------------------
+|R|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+--------------------------------------------------
+<R:  X|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+#res:1
+#preres:0
+#expired:0
+-Reservations:
+{ Res:X #seats:1 - [0,0] }
+-Prereservations:
+Empty list.
+--------------------------------------------------
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+--------------------------------------------------
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+#res:0
+#preres:0
+#expired:0
+-Reservations:
+Empty list.
+-Prereservations:
+Empty list.
+-GAME OVER-
+--------------------------------------------------
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+|F|F|F|F|F|F|F|F|F|F|
+--------------------------------------------------
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+<F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|F: -1|
+#res:0
+#preres:0
+#expired:0
+-Reservations:
+Empty list.
+-Prereservations:
+Empty list.
+#Ops: 1
+#Suc: 1
+#Fail:0
